@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Pass data new windows</title>
+    <script src="assets/script.js"></script>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+	<fieldset class="amra">
+<legend class="tumi">form vlaidation</legend>
+<div class="ami">
+
+    <form method="POST" name="f" class="for">
+    
+        <div>
+            Name<br>
+            <input type="text" name="txtName">
+        </div>
+
+        <div>
+            Address<br>
+            <textarea name="txtAddress"></textarea>
+        </div>
+
+        <div>
+            Courses<br>
+            <select name="txtCourses">
+                <option value="MBA">M.B.A</option>
+                <option value="BBA">B.B.A</option>
+                <option value="CSE">CSE</option>
+                <option value="EEE">EEE</option>
+            </select>
+        </div>
+
+        <div>
+            Sex<br>
+            Male<input type="radio" name="rdoSex" value="Male">
+            Female<input type="radio" name="rdoSex" value="Female">
+        </div>
+
+        <div>
+            Subject<br>
+            English<input type="checkbox" name="chkSubject" value="English">
+            Bangla<input type="checkbox" name="chkSubject" value="Bangla">
+        </div>
+
+        <div>
+            <input type="button" name="btnObject" value="Submit" onclick="dyn_window()">
+        </div>
+    </form>
+</div>
+
+
+    </fieldset>
+</body>
+</html>
